@@ -41,6 +41,25 @@ $var3 = 0;
 <?php echo "Kas var2 on väärtustatud?" . isset($var2); ?><br>
 <?php echo "Kas var3 on väärtustatud?" . isset($var3); ?><br>
 <?php echo "Kas var4 on väärtustatud?" . isset($var4); ?><br>
+<br>
+
+<?php 
+$var1 = "";
+$var2 = "0";
+$var3 = 0;
+$var4 = 0.0;
+$var5 = array();
+$var6 = NULL;
+$var7 = false;
+ ?>
+<?php echo "Kas var1 on empty?" . empty($var1); ?><br>
+<?php echo "Kas var2 on empty?" . empty($var2); ?><br>
+<?php echo "Kas var3 on empty?" . empty($var3); ?><br>
+<?php echo "Kas var4 on empty?" . empty($var4); ?><br>
+<?php echo "Kas var5 on empty?" . empty($var5); ?><br>
+<?php echo "Kas var6 on empty?" . empty($var6); ?><br>
+<?php echo "Kas var7 on empty?" . empty($var7); ?><br>
+
 
 </body>
 </html> 
