@@ -60,6 +60,33 @@ $var7 = false;
 <?php echo "Kas var6 on empty?" . empty($var6); ?><br>
 <?php echo "Kas var7 on empty?" . empty($var7); ?><br>
 
+<h2>Andmetüübi teisendamine</h2>
+
+<?php $count = 2; ?>
+
+<?php echo gettype($count);  ?><br>
+<?php echo $count; ?><br><br>
+
+<?php settype($count, "string"); ?>
+<?php echo gettype($count);?><br>
+<?php echo $count ;?><br><br>
+
+<?php settype($count, "double"); ?>
+<?php echo gettype($count);?><br>
+<?php echo $count ;?><br><br>
+
+<?php settype($count, "array"); ?>
+<?php echo gettype($count);?> <br>
+<pre><?php echo print_r($count); ?></pre> <br>
+<?php settype($count, "boolean"); ?>
+<?php echo $count;?> <br>
+<?php echo gettype($count);?> <br>
+
+
+
+
+ 
+
 
 </body>
 </html> 
