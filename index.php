@@ -82,11 +82,12 @@ $var7 = false;
 <?php echo $count;?> <br>
 <?php echo gettype($count);?> <br>
 
+<h2>Konstandid</h2>
 
-
-
- 
-
+<?php define("MAX_WIDTH", 980); ?>
+<?php echo MAX_WIDTH; ?> <br>
+<?php define("MAX_WITDH", 500); ?>
+<?php echo MAX_WIDTH; ?> <br>
 
 </body>
 </html> 
